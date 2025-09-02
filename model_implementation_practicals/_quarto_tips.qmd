@@ -1,0 +1,29 @@
+::: {.callout-tip collapse="true" icon="false"}
+### How to work with this Quarto document
+
+This document is created using **Quarto**, a powerful publishing system that combines text, code, and output. Here are some tips for working with it:
+
+#### Rendering the document:
+
+-   **In RStudio/Positron**: Click the "Render" button or use `Ctrl+Shift+K` (Windows/Linux) or `Cmd+Shift+K` (Mac)
+-   **Command line**: Run `quarto render filename.qmd` in your terminal
+-   **Alternative formats**: Change `format: html` to `format: pdf` in the YAML header to render as PDF
+
+#### Running code interactively:
+
+-   **Individual lines**: Place cursor on a line and press `Ctrl+Enter` (Windows/Linux) or `Cmd+Enter` (Mac)
+-   **Code chunks**: Click the green "play" button in the top-right corner of any code chunk, or use `Ctrl+Shift+Enter` (Windows/Linux) or `Cmd+Shift+Enter` (Mac)
+-   **All chunks**: Use "Run All" from the Run menu or `Ctrl+Alt+R` (Windows/Linux) or `Cmd+Option+R` (Mac)
+
+#### Visual features:
+
+-   **Light/Dark mode**: This document supports both light and dark themes that automatically adapt to your system preferences
+-   **Interactive elements**: Code chunks can be executed independently, and outputs update dynamically
+-   **Navigation**: Use the table of contents (if enabled) to jump between sections
+
+#### Best practices:
+
+-   Run code chunks sequentially from top to bottom on your first pass
+-   Experiment with parameter values by modifying the code and re-running chunks
+-   Save your work frequently using `Ctrl+S` (Windows/Linux) or `Cmd+S` (Mac)
+:::
